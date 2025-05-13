@@ -2,7 +2,7 @@ name: Supabase Inactive Fix
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * 1'
+    - cron: '0 0 * * 1,4'
 jobs:
   work:
     runs-on: ubuntu-latest
